@@ -1,0 +1,40 @@
+{
+  "name": "localsafe",
+  "version": "0.0.1",
+  "description": "Introducing Localsafe: 🔒 Your Browser's Secure Storage Solution! \n Localsafe ensures your data stays safe and encrypted in browser local storage. With seamless data storage and retrieval, plus tools to check available space and optimize usage, Localsafe makes managing local storage a breeze. \n The real game-changer? Localsafe's compression technology lets you store large datasets exceeding the 5 MB limit, without sacrificing speed or security. \n Experience hassle-free, secure local storage management with Localsafe. Try it now and revolutionize your development workflow! 🚀",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishcumar/LocalSafe-Npm"
+  },
+  "keywords": [
+    "local storage",
+    "Secure Local Storage",
+    "Encrypted Storage",
+    "Browser Storage Security",
+    "Local Data Encryption",
+    "Compression Storage",
+    "Safe Storage Solution",
+    "Efficient LocalStorage",
+    "Data Protection",
+    "Size Calculator",
+    "Capacity Assessment"
+  ],
+  "homepage": "https://github.com/ashishcumar/LocalSafe-Npm/blob/main/README.md",
+  "author": "Ashish",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "crypto-js": "^4.2.0",
+    "tsup": "^8.0.2"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "typescript": "^5.4.5"
+  }
+}
