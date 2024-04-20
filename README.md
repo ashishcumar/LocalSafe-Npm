@@ -44,9 +44,10 @@ Experience hassle-free, secure local storage management with Localsafe. Try it n
 You can install **localsafe** via npm:
 ```bash
 npm install localsafe
+```
 
-import { setEncryptedItem, getDecryptedItem, removeItem,  hasItem,
-getAllItems, getTotalSize, getItemSize, getFreeSpace, } from "localsafe";
+```bash
+import { setEncryptedItem, getDecryptedItem, removeItem,  hasItem, getAllItems, getTotalSize, getItemSize getFreeSpace, } from "localsafe";
 ```
 
 ## Function Details
