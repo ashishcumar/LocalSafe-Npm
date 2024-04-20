@@ -1,5 +1,23 @@
 # localsafe
 
+# Table of Contents
+
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Function Details](#function-details)
+   - [setEncryptedItem](#setencrypteditemkey-string-value-string-secret-string-void)
+   - [getDecryptedItem](#getdecrypteditemkey-string-secret-string-any--null)
+   - [removeItem](#removeitemkey-string-void)
+   - [clear](#clear-void)
+   - [hasItem](#hasitemkey-string-boolean)
+   - [getAllItems](#getallitemssecret-string-recordstring-string)
+   - [getTotalSize](#gettotalsize-number)
+   - [getItemSize](#getitemsizekey-string-number--null)
+   - [getFreeSpace](#getfreespace-number)
+5. [Security Considerations](#security-considerations)
+6. [License](#license)
+
 ## Secure and Easy Local Storage Management for JavaScript
 
 **Localsafe**: 🔒 Your Browser's Secure Storage Solution!
