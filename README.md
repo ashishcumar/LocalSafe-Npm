@@ -150,3 +150,6 @@ The available free space in local storage.
 
 - **Secret Key:** Ensure that you use a strong and secure secret key for encryption and decryption to prevent unauthorized access. Store your secret keys securely in `.env` files.
 
+## Issue/Error
+For any hiccups with the package, drop an email to **Kumarashish87998@gmail.com** with **"Error || LocalSafe"** as the subject. 📧
+
